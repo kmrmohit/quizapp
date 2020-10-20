@@ -1,0 +1,79 @@
+html,
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.infobar {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.user,
+.timer {
+  display: flex;
+  margin: 0 10px 0 10px;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ques-option {
+  height: 60%;
+  background-color: skyblue;
+  border-radius: 2mm;
+  margin: 0 10px;
+  padding: 0 120px 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ques-option #options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#bottom-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#option-a,
+#option-b,
+#option-c,
+#option-d {
+  display: flex;
+}
+button {
+  color: Black;
+  background-color: white;
+  margin: 10px 0 10px 0;
+  padding: 5px 10px 5px 10px;
+  width: 150px;
+  border-style: solid;
+  border-radius: 2mm;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: red;
+  margin: 50px;
+}
